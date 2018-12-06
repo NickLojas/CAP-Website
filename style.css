@@ -129,7 +129,7 @@ header {
 }
 
 .header-logo{
-    height: 62px;
+    height: 94px;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -160,11 +160,15 @@ header nav ul li a {
 }
 
 @media only screen and (min-width: 1000px) {
-    header .header-logo{
+    .header-logo{
         float: left;
-        margin: 31px 20px;
+        margin: 15px 20px;
         text-align: left;
         line-height: 62px;
+    }
+
+    .header-logo img{
+        height: 100%;
     }
 
     header nav ul {
