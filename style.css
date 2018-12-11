@@ -149,6 +149,10 @@ header {
     font-weight: 400;
 }
 
+.contact-info img {
+    width: 25px;
+}
+
 .header-logo{
     float: left;
     margin: 30px 40px 15px 20px;
