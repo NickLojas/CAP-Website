@@ -181,12 +181,12 @@ header nav ul li {
     float: left;
     list-style: none;
     line-height: 14px;
-    padding: 0 16px;
+    padding: 0 14px;
 }
 
 header nav ul li a {
     font-family: Catamaran;
-    font-size: 18px;
+    font-size: 1.5vw;
     text-transform: uppercase;
     color: #111;
     font-weight: 400;
