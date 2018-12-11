@@ -115,6 +115,10 @@ input, select {
 *stylesheet starts here */
 
 
+a {
+    color: rgb(0,155,255);
+}
+
 
 /* HEADER */
 
@@ -122,10 +126,10 @@ header {
     position: fixed;
     top: 0;
     background-color: #fff;
-    width: calc(100% - 2px);
+    width: calc(100% - 4px);
     height: 220px;
     z-index: 3;
-    border-style: solid;
+    border-style: ridge;
     border-width: 2px;
 }
 
@@ -143,10 +147,11 @@ header {
 }
 
 .contact-info p {
-    font-family: Catamaran;
+    font-family: sans-serif;
     font-size: 24px;
     color: #111;
-    font-weight: 400;
+    font-weight: 200;
+    text-shadow: 0.5px 0.5px 0.5px #e1e1e1;
 }
 
 .contact-info img {
@@ -185,12 +190,12 @@ header nav ul li {
 }
 
 header nav ul li a {
-    font-family: Catamaran;
+    font-family: sans-serif;
     font-size: 1.5vw;
     text-transform: uppercase;
     color: #111;
     font-weight: 400;
-    text-shadow: 1px 1px #e1e1e1;
+    text-shadow: 1px 1px 1px #e1e1e1;
 }
 
 @media only screen and (min-width: 1024px) {
