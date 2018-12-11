@@ -122,9 +122,11 @@ header {
     position: fixed;
     top: 0;
     background-color: #fff;
-    width: 100%;
-    height: 200px;
+    width: calc(100% - 2px);
+    height: 220px;
     z-index: 3;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .upper-header {
@@ -136,7 +138,15 @@ header {
 .contact-info {
     display: table-cell;
     vertical-align: middle;
-    width: 20%;
+    width: 30%;
+    height: 20%;
+}
+
+.contact-info p {
+    font-family: Catamaran;
+    font-size: 24px;
+    color: #111;
+    font-weight: 400;
 }
 
 .header-logo{
@@ -147,7 +157,7 @@ header {
 }
 
 .header-logo img{
-    width: 50vw;
+    width: 40vw;
     height: 100%;
 }
 
@@ -172,7 +182,7 @@ header nav ul li {
 
 header nav ul li a {
     font-family: Catamaran;
-    font-size: 14px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #111;
     font-weight: 400;
@@ -182,7 +192,11 @@ header nav ul li a {
 @media only screen and (min-width: 1024px) {
     header{
         height: 200px;
-        width: 1024px;
+        width: 1020px;
+    }
+
+    .header-logo img{
+        width: 400px;
     }
 
     header nav ul li {
@@ -206,7 +220,7 @@ a {
     position: relative;
     margin: 200px 0 10px;
     width: 100%;
-    height: 60vh;
+    height: 65vh;
     background: url('misc/waves.jpg') no-repeat center center fixed;
     background-size: 100% 100%;
     background-position-y: 200px;
@@ -216,7 +230,7 @@ a {
 
 .index-banner h1 {
     font-family: sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 900;
     color: #fff;
     text-align: center;
@@ -239,6 +253,10 @@ a {
 @media only screen and (max-width: 1024px) {
     .wrapper{
         width: 100vw;
+    }
+
+    .index-banner {
+        height: 50vh;
     }
 
 }
