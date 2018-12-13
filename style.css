@@ -117,6 +117,21 @@ input, select {
 
 a {
     color: rgb(0,155,255);
+    text-decoration: none;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px rgb(0,155,255);
+    line-height: 30px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 
@@ -191,7 +206,7 @@ header nav ul li {
 
 header nav ul li a {
     font-family: sans-serif;
-    font-size: 1.35vw;
+    font-size: 1.2vw;
     text-transform: uppercase;
     color: #111;
     font-weight: 400;
@@ -221,9 +236,6 @@ header nav ul li a {
 
 /* INDEX PAGE */
 
-a {
-    text-decoration: none;
-}
 
 .index-banner {
     position: relative;
@@ -257,6 +269,14 @@ a {
 .wrapper {
     width: 1024px;
     margin: 0 auto;
+}
+
+.welcome-text {
+    text-align: center;
+}
+
+.welcome-text h1 {
+    margin: 30px 0 20px 0;
 }
 
 @media only screen and (max-width: 1024px) {
