@@ -122,36 +122,38 @@ a {
 
 h1 {
     font-family: sans-serif;
-    font-size: 24px;
-    font-weight: 900;
+    font-size: 40px;
     text-shadow: 1px 1px 1px rgb(0,155,255);
     line-height: 30px;
 }
 
 p {
     font-family: sans-serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 
+
 /* HEADER */
+
+
 
 header {
     position: fixed;
     top: 0;
     background-color: #fff;
-    width: calc(100% - 4px);
-    height: 220px;
+    width: 100%;
+    height: 222px;
     z-index: 3;
-    border-style: ridge;
-    border-width: 2px;
 }
 
 .upper-header {
     display: table;
-    width: 100%;
-    height: 80%;
+    width: calc(100% - 4px);
+    height: calc(75% - 4px);
+    border-style: ridge;
+    border-width: 2px;
 }
 
 .contact-info {
@@ -163,7 +165,8 @@ header {
 
 .contact-info p {
     font-family: sans-serif;
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 25px;
     color: #111;
     font-weight: 200;
     text-shadow: 0.5px 0.5px 0.5px #e1e1e1;
@@ -173,7 +176,7 @@ header {
     width: 25px;
 }
 
-.header-logo{
+.header-logo {
     float: left;
     margin: 30px 40px 15px 20px;
     text-align: left;
@@ -185,26 +188,25 @@ header {
     height: 100%;
 }
 
-nav {
-    height: 20%;
+header ul {
+    display: flex;
+    width: calc(100% - 4px);
+    height: 25%;
+    border-style: ridge;
+    border-width: 2px;
+    justify-content: center;
 }
 
-header nav ul {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-}
-
-header nav ul li {
-    display: block;
+header ul li {
+    display: list-item;
     float: left;
     list-style: none;
-    line-height: 14px;
-    padding: 0 14px;
+    line-height: 350%;
+    padding: 0 20px;
+
 }
 
-header nav ul li a {
+header ul li a {
     font-family: sans-serif;
     font-size: 1.2vw;
     text-transform: uppercase;
@@ -214,35 +216,28 @@ header nav ul li a {
 }
 
 @media only screen and (min-width: 1024px) {
-    header{
-        height: 200px;
-        width: 1020px;
-    }
-
     .header-logo img{
         width: 400px;
     }
 
-    header nav ul li {
-        line-height: 100%;
-    }
-
-    header nav ul li a {
+    header ul li a {
         font-size: 16px;
     }
 
-    header nav ul li:hover a {
+    header ul li:hover a {
         text-decoration: underline;
     }
 }
 
 
+
 /* INDEX PAGE */
+
 
 
 .index-banner {
     position: relative;
-    margin: 200px 0 10px;
+    margin: 222px 0 10px;
     width: 100%;
     height: 65vh;
     background: url('misc/waves.jpg') no-repeat center center fixed;
@@ -269,33 +264,36 @@ header nav ul li a {
     left: 50%;
 }
 
-.wrapper {
-    width: 1024px;
-    margin: 0 auto;
-}
-
 .welcome-text {
-    text-align: justify;
+    margin: 0 30px;
 }
 
 .welcome-text h1 {
-    margin: 30px 0 20px 0;
+    margin: 80px 0 20px 0;
     text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {
-    .wrapper{
-        width: 100vw;
-    }
-
     .index-banner {
         height: 50vh;
     }
 
 }
 
+
+/* ABOUT ME PAGE */
+
+
+
 .about {
-    margin: 210px 0 0 10px;
+    margin: 280px 0 0 40px;
+    float: left;
+    width: 50%;
 }
+
+.about h1 {
+    margin-bottom: 40px;
+}
+
 
 
