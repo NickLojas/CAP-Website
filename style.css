@@ -275,11 +275,12 @@ header nav ul li a {
 }
 
 .welcome-text {
-    text-align: center;
+    text-align: justify;
 }
 
 .welcome-text h1 {
     margin: 30px 0 20px 0;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -291,6 +292,10 @@ header nav ul li a {
         height: 50vh;
     }
 
+}
+
+.about {
+    margin: 210px 0 0 10px;
 }
 
 
