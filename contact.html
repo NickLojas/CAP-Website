@@ -27,19 +27,19 @@
 	</header>
 	<main>
 		<div class="contact">
-			<h2>Map of Location</h2>
+			<h1>Map of Location</h1>
 			<div id="map"></div>
 		</div>
 	</main>
 	<script>
 		// Initialize and add the map
 		function initMap() {
-		  // The location of Uluru
+		  // The location of the unit
 		  var location = {lat: 43.532013, lng: -79.614405};
-		  // The map, centered at Uluru
+		  // The map, centered at the location
 		  var map = new google.maps.Map(
 		      document.getElementById('map'), {zoom: 15, center: location});
-		  // The marker, positioned at Uluru
+		  // The marker, positioned at location
 		  var marker = new google.maps.Marker({position: location, map: map});
 		}
 	</script>
