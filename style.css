@@ -115,6 +115,9 @@ input, select {
 *stylesheet starts here */
 
 
+/* General */
+
+
 a {
     color: rgb(0,155,255);
     text-decoration: none;
@@ -231,7 +234,7 @@ header ul li a {
 
 
 
-/* INDEX PAGE */
+/* Index Page */
 
 
 
@@ -281,7 +284,7 @@ header ul li a {
 }
 
 
-/* ABOUT ME PAGE */
+/* About Me Page */
 
 
 
@@ -296,4 +299,17 @@ header ul li a {
 }
 
 
+/* Contact Page */
+
+
+.contact {
+    margin: 230px 0 0 40px;
+}
+
+
+#map {
+    width: 40%;
+    height: 300px;
+    background-color: grey;
+}
 
