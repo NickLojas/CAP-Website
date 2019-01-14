@@ -119,7 +119,7 @@ input, select {
 
 
 a {
-    color: #58AEE1 /*rgb(0,155,255)*/;
+    color: #58AEE1;
     text-decoration: none;
 }
 
@@ -139,7 +139,7 @@ p {
 .wrapper {
     width: 100vw;
     height: 100vh;
-    background-color: #C5DBE8;
+    background-color: #E4F5FF;
 }
 
 
@@ -162,8 +162,6 @@ header {
     justify-content: space-around;
     width: calc(100% - 0px);
     height: calc(75% - 0px);
-    /*border-style: ridge;
-    border-width: 2px;*/
 }
 
 .upper-header p {
@@ -216,8 +214,6 @@ header ul {
     width: calc(100% - 0px);
     height: 24%;
     justify-content: center;
-    /*border-style: ridge;
-    border-width: 2px;*/
 }
 
 header ul li {
@@ -266,8 +262,6 @@ header ul li a {
     #contact-info {
         display: none;
     }
-
-
 }
 
 
