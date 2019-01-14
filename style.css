@@ -299,11 +299,24 @@ header ul li a {
 }
 
 
+/* Services Page */
+
+
+.services {
+    margin: 280px 50px 0 50px;
+}
+
+.services h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
 /* Contact Page */
 
 
 .contact {
-    margin: 250px 0 0 40px;
+    margin: 250px 0 0 50px;
 }
 
 
