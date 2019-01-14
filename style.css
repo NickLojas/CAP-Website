@@ -136,10 +136,12 @@ p {
     line-height: 34px;
 }
 
-.wrapper {
-    width: 100vw;
-    height: 100vh;
-    background-color: #E4F5FF;
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: #E8F2F7;
 }
 
 
@@ -323,7 +325,7 @@ header ul li a {
 .about {
     margin: 260px 0 0 50px;
     float: left;
-    width: 50%;
+    width: 40%;
 }
 
 .about h1 {
