@@ -382,20 +382,38 @@ header ul li a {
 
 
 .contact {
-    margin: 50px 0 0 50px;
-    float: left;
+    display: flex;
+    flex-direction: column;
 }
 
-.contact h1 {
+.contact-map {
+    flex-grow: 1;
+    margin: 50px 0 0 50px;
+    float: left;
+    text-align: center;
+}
+
+.contact-map h1 {
     margin-bottom: 40px;
 }
 
 .contact-form {
-    margin: 50px 50px 0 50px;
-    overflow: hidden;
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    margin: 50px 0 50px 50px;
+}
+
+.contact-form h1 {
+    margin-bottom: 20px;
+}
+
+.contact-form textarea {
+    margin-bottom: -7px;
 }
 
 #map {
+    display: inline-block;
     margin: 20px 20px;
     width: 85vw;
     height: 50vh;
@@ -407,5 +425,8 @@ header ul li a {
         width: 600px;
     }
 
+    .contact {
+        flex-direction: row;
+    }
 }
 

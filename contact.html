@@ -28,18 +28,21 @@
 		</ul>
 	</header>
 	<main>
-		<div class="contact">
-			<h1>Map of Location</h1>
-			<div id="map"></div>
-		</div>
-		<section class="contact-form">
-			<p>Something can be written here</p>
-			<form action="contactform.php" method="post" onSubmit="return validate()">
-				<input type="text" id="name" name="name" placeholder="Name (optional)">
-				<input type="text" id="email" name="email" placeholder="Enter your e-mail (optional)">
-				<textarea name="message" id="message" placeholder="Comments/Questions here"></textarea>
-				<input class="contact-button" type="submit" name="submit" value="submit">
-			</form>
+		<section class="contact">
+			<div class="contact-map">
+				<h1>Map of Location</h1>
+				<div id="map"></div>
+			</div>
+			<section class="contact-form">
+				<h1>Contact Me</h1>
+				<p>Something can be written here</p>
+				<form action="contactform.php" method="post" onSubmit="return validate()">
+					<input type="text" id="name" name="name" placeholder="Name (optional)">
+					<input type="text" id="email" name="email" placeholder="Enter your e-mail (optional)">
+					<textarea name="message" id="message" placeholder="Comments/Questions here"></textarea>
+					<input class="contact-button" type="submit" name="submit" value="submit">
+				</form>
+			</section>
 		</section>
 	</main>
 	<script>
